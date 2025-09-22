@@ -1,0 +1,8 @@
+.outter{
+        display: grid
+;
+&__details, &__details__info{
+grid-row: 1;    margin-left: 5%;
+}
+
+}

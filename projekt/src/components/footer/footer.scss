@@ -1,0 +1,23 @@
+.swaphub{
+    
+    display: grid;
+    grid-auto-flow: column;
+    width: fit-content;
+    align-items: center;
+
+}
+ul{
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: column;
+}
+footer{
+    max-width: 1200px;
+    
+    margin: 0 auto;
+    padding: 0;
+
+    svg{
+            margin-right: 10px;
+    }
+}

@@ -1,0 +1,16 @@
+.items{
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+
+  max-width: 900px;
+  justify-self: end;
+ 
+
+}
+.aktiviteter{
+    max-width: fit-content;
+}
+.item{
+    max-width: fit-content;
+}

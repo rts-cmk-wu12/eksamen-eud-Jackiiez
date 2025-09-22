@@ -1,0 +1,44 @@
+.navigation{
+        display: grid
+;
+    grid-auto-flow: column;
+    align-items: center;
+    max-width: 1200px;
+
+    margin: 0 auto;
+list-style-type: none;
+padding: 25px;
+
+.grid1{
+    display: grid;
+    grid-auto-flow: 
+    column;
+    align-items: center;
+    justify-self: start;
+        img,h1{
+            margin-right: 25px;
+    }
+}
+.grid2{
+    display: grid;
+    grid-auto-flow: 
+    column;
+    align-items: center;
+    justify-self: end;
+
+    li{
+            margin-right: 25px;
+            a{
+                color: black;
+            }
+    }
+    
+}
+
+
+}
+nav{
+    hr{
+        max-width: 1200px;
+    }
+}
