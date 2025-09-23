@@ -8,10 +8,10 @@ export default async function Home() {
      return (
 
     <>
-  <div className="items">
+  <div className="itemss">
       {json.map(item =>
 
-        <div className="item" key={item.id} >
+        <div className="itemm" key={item.id} >
           {/* vi henter vores kort hvor vi har en property som hedder "item" og giver den det samme parameter så vi viser alt indholdet fra kortet */}
           <Kort item={item} />
         </div>)}</div>

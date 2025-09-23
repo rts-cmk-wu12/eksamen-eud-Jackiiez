@@ -1,8 +1,59 @@
-.outter{
-        display: grid
-;
-&__details, &__details__info{
-grid-row: 1;    margin-left: 5%;
+.outter {
+        margin-top: 5%;
+        display: grid;
+        width: 65%;
+        gap: 5%;
+
+        &__details,
+        &__details__info {
+                grid-row: 1;
+                margin-left: 5%;
+                max-width: fit-content;
+
+                h1 {
+                        width: 50vw;
+                }
+        }
+
 }
 
+.items {
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(2, auto);
+        display: grid;
+
+        max-width: 900px;
+
+        margin-left: 5%;
+
+        h2 {
+                grid-row: 1;
+        }
+
+        h2,
+        a {
+                margin-left: 5%;
+
+        }
+
+        div,
+        a {
+                grid-row: 2;
+                padding-right: 10%;
+                padding-bottom: 15%;
+
+                img {
+                        padding-right: 10%;
+                }
+
+        }
+
+}
+
+.aktiviteter {
+        max-width: fit-content;
+}
+
+.item {
+        max-width: fit-content;
 }
