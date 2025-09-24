@@ -13,11 +13,11 @@ export default function Navigation() {
             <h1>Swaphub</h1></div>
 
             <div className="grid2">
-   <li> <Link href={"/aktiviteter"}>Listings</Link></li>
-    <li> <Link href={"/aktiviteter"}>Community</Link></li>
-       <li> <Link href={"/aktiviteter"}>Contact</Link></li>
-          <li> <Link href={"/aktiviteter"}>Sign in</Link></li>
-             <li> <Link href={"/aktiviteter"}>Register</Link></li></div>
+   <Link href={"/aktiviteter"}>Listings</Link>
+     <Link href={"/aktiviteter"}>Community</Link>
+        <Link href={"/aktiviteter"}>Contact</Link>
+         <Link className="signin" href={"/login"}>  Sign in</Link>
+           <Link className="register" href={"/login"}>  Register</Link></div>
    </ul>
    <hr />
 </nav>

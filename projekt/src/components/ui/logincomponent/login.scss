@@ -1,0 +1,33 @@
+.loginform {
+        margin: 0 auto;
+    display: grid
+;
+    max-width: 25vw;
+    padding-top: 10vh;
+    padding-bottom: 30vh;
+    
+    &__label {
+        display: grid;
+        max-width: 25vw;
+    }
+    &__button{
+            background-color: #1E1E1E;
+    color: white;
+    padding: 3%;
+    border-radius: 9px;
+    margin-top: 8%;   
+     width: 20vw;
+
+    }
+    &__input{
+         border-radius: 9px;
+    margin-bottom: 8%;
+        padding: 3%;
+    }
+
+}
+.loginoutter{
+        padding: 10%;
+border: 2px solid #ccc;
+border-radius: 9px;
+}
