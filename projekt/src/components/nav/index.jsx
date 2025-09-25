@@ -13,9 +13,9 @@ export default function Navigation() {
             <h1>Swaphub</h1></div>
 
             <div className="grid2">
-   <Link href={"/aktiviteter"}>Listings</Link>
-     <Link href={"/aktiviteter"}>Community</Link>
-        <Link href={"/aktiviteter"}>Contact</Link>
+   <Link href={"/"}>Listings</Link>
+     <Link href={"/"}>Community</Link>
+        <Link href={"/contact"}>Contact</Link>
          <Link className="signin" href={"/login"}>  Sign in</Link>
            <Link className="register" href={"/login"}>  Register</Link></div>
    </ul>

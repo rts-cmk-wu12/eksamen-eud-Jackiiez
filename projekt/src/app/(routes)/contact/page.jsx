@@ -4,9 +4,9 @@ import "../../../components/ui/logincomponent/login.scss"
 
 
 
-//ikke funktionel
 
-export default function Profil() {
+
+export default function Contact() {
 
 
     return (
@@ -23,18 +23,26 @@ export default function Profil() {
                 </div>
                 <div>
                     <label className="loginform__label">
-                        <span className="loginform__span">Adgangskode</span>
+                        <span className="loginform__span">name</span>
                         <input className="loginform__input" type="text"  placeholder="name" required />
 
                     </label>
                 </div>
-                  
+                    <div>
+                    <label className="loginform__label">
+                        <span className="loginform__span">I agree to receive newsletters and accept the privacy policy. <input className="loginform__input" type="checkbox" required  /></span>
+                       
 
-                <button className="loginform__button" type="submit">Opdater alt</button>
+                    </label>
+                </div>
+
+
+                <button className="loginform__button" type="submit">kontakt os</button>
        
             </div>
           
         </form>
 
 )
-        ;}
+        ;
+}

@@ -1,0 +1,13 @@
+.searchitems{
+        grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(8, 1fr);
+    justify-self: end;
+    // max-width: 900px;
+    display: grid
+;
+h3{
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+}
