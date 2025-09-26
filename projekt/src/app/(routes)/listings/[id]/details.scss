@@ -16,7 +16,15 @@
         }
 
 }
+.details__button{
+            background-color: #767676;
+                padding: 10px;
+    border-radius: 9px;
+margin-right: 0 !important;  
 
+      text-align: center;
+      max-width: fit-content;
+}
 .items {
         grid-template-rows: repeat(2, auto);
         grid-template-columns: repeat(2, auto);

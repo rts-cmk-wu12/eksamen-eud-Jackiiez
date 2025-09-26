@@ -22,7 +22,7 @@ export default async function doTheLoginThing(prevState, formData) {
     const validated = schema.safeParse({
         email, password
     });
-    // , firstname, lastname, age, role
+  
     if (!validated.success) return {
         ...validated,
         ...(z.treeifyError(validated.error))

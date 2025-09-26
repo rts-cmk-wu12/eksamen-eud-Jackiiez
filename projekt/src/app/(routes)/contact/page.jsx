@@ -2,6 +2,9 @@
 
 import "../../../components/ui/logincomponent/login.scss"
 
+export const metadata={
+    title:"Contact"
+}
 
 
 

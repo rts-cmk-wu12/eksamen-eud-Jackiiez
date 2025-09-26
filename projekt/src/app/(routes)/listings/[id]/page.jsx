@@ -4,6 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import "./details.scss"
 
+export const metadata={
+    title:"Details"
+}
+
+
+
 export default async function AktiviterDetails({ params }) {
   const { id } = await params;
   console.log(id)
@@ -41,7 +47,7 @@ export default async function AktiviterDetails({ params }) {
       <div className="items">
       <h2>Other Items from this Swapper</h2>
         {sellerListing.map(item => (
-          <Link href={`/listings/${item.id}`}>
+          <Link  key={item.id} href={`/listings/${item.id}`}>
           <div  key={item.id}>
             <Image src={item.asset.url} alt={item.title} width={210} height={280}></Image>
             <h3>{item.title}</h3>

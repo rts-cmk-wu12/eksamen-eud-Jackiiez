@@ -63,6 +63,7 @@ async function handleRegister(state, formData) {
 export default function LoginForm() {
 
     //status for loading osv
+    //use actionstate er en react hook som tager imod 2 states og en funktion, en
     const [formState, formAction, isPending] = useActionState(handleRegister);
 
     return isPending ? (
