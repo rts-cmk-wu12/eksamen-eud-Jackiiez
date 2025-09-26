@@ -20,7 +20,7 @@ export default function Contact() {
 
                     <label className="loginform__label">
                         <span className="loginform__span">Email</span>
-                        <input className="loginform__input" type="email" name="email" placeholder="Email" />
+                        <input className="loginform__input" type="email" name="email" placeholder="Email" required />
 
                     </label>
                 </div>
