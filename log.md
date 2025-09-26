@@ -24,4 +24,4 @@ Brug denne logbog til at dokumentere din arbejdstid i eksamensugen.
 ## Dag 5
 14:36
 
-15:21
+15:31

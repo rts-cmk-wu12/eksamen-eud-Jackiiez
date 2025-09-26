@@ -154,3 +154,15 @@ export default function LoginForm() {
   hvor vi i actionstatet sætter vores handleregister funktion som aktivere vores "dotheloginthing" funktion fra vores
   anden fil og vis det går godt så får vi et nice response som vi har defineret og valideret og gemt i cookie 
   inde i dotheloginthing
+
+
+
+
+
+
+
+
+ # ÆNDRINGER
+  * Forside: har ik inkluderet advanced filter søgning i venstre side og har ik pagination da jeg ik har prøvet at lave det før så prioteret min tid udfra det
+ 
+  
